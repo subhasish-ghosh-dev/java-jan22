@@ -32,6 +32,7 @@ package com.santosoftvw.class02;
         PieDataset dataset = createDataset();  
       
         // Create chart  
+        //Subhasish Ghosh
         JFreeChart chart = ChartFactory.createPieChart(  
             "Pie Chart Example",  
             dataset,  
@@ -61,6 +62,7 @@ package com.santosoftvw.class02;
       }  
       
       public static void main(String[] args) {  
+          System.out.println("");
         SwingUtilities.invokeLater(() -> {  
           ChartMain example = new ChartMain("Pie Chart Example");  
           example.setSize(800, 400);  
